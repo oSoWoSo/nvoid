@@ -51,6 +51,7 @@ $ `./xbps-src pkg my-new-package`
 
 ### 6. Commit according to voidlinux's commit rules:
  https://github.com/void-linux/void-packages/blob/master/CONTRIBUTING.md#committing-your-changes
+
 $ `git commit -m "New package: my-new-package-package_version_number`
 
 ### Or even better using xbump which adds the correct commit message automatically.
@@ -97,6 +98,7 @@ $ `./xbps-src pkg my-package-to-update`
 
 ### 6. Commit according to voidlinux's commit rules:
  https://github.com/void-linux/void-packages/blob/master/CONTRIBUTING.md#committing-your-changes
+
 $ `git commit -m "my-package-to-update: update to new_package_version_number"`
 
 ##    Or even better using xbump which adds the correct commit message automatically.
