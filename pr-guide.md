@@ -1,3 +1,5 @@
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/voidlinux/comments/ff13l8/little_pr_guide/?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=dark" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="no" width="640" height="1768"></iframe>
+
 Little PR Guide
 The little void contribution guide
 Useful hints
