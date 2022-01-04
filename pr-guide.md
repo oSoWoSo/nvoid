@@ -15,7 +15,9 @@ $ `git rebase -i HEAD~4`
 ### 1. Fork voidlinux's void-packages repository on github.com
 ### 2. Clone forked repository and add remote upstream
 $ `cd /opt`
+
 $ `git clone git@github.com:my-github-username/void-packages.git`
+
 $ `git remote add upstream https://github.com/void-linux/void-packages.git`
 
 ### 4. Binary bootstrap environment
@@ -27,9 +29,13 @@ $ `xbps-install xtools`
 # Create new package and PR
 ### 1. Create new package template and git branch
 $ `cd /opt/void-packages`
+
 $ `git pull --rebase upstream master`
+
 $ `git checkout -b my-new-package`
+
 $ `xnew my-new-package`
+
 $ `vim srcpkgs/my-new-package/template`
 
 ### 2. Configure template according to voidlinux's manual: https://github.com/void-linux/void-packages/blob/master/Manual.md
@@ -54,6 +60,7 @@ $ `git push -u origin my-new-package`
 ### 8. Create a PR on github.com
 # Install your new package
 $ `cd /opt/void-packages`
+
 $ `git checkout (-b) my-new-package`
 
 ### 1. Using xbps-install
@@ -65,12 +72,16 @@ $ `xi my-new-package`
 # Update a your package
 ### 1. Update local repository
 $ `cd /opt/void-packages`
+
 $ `git checkout master`
+
 $ `git pull --rebase upstream master`
+
 $ `./xbps-src bootstrap-update`
 
 ### 2. Make changes to the template
 $ `git checkout (-b) my-package-to-update`
+
 $ `vim srcpkgs/my-package-to-update/template`
 
 ### 3. Update sha256sums
