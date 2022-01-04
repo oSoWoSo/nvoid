@@ -1,4 +1,3 @@
-VUR
 # Void User Repository
 Renamed from nvoid
 
