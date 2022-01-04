@@ -38,7 +38,8 @@ $ `xnew my-new-package`
 
 $ `vim srcpkgs/my-new-package/template`
 
-### 2. Configure template according to voidlinux's manual: https://github.com/void-linux/void-packages/blob/master/Manual.md
+### 2. Configure template according to voidlinux's manual:
+ https://github.com/void-linux/void-packages/blob/master/Manual.md
 ### 3. Lint the package template
 $ `xlint srcpkgs/my-new-package/template`
 
@@ -48,7 +49,8 @@ $ `xgensum -f srcpkgs/my-new-package/template`
 ### 5. Build and package it
 $ `./xbps-src pkg my-new-package`
 
-### 6. Commit according to voidlinux's commit rules: https://github.com/void-linux/void-packages/blob/master/CONTRIBUTING.md#committing-your-changes
+### 6. Commit according to voidlinux's commit rules:
+ https://github.com/void-linux/void-packages/blob/master/CONTRIBUTING.md#committing-your-changes
 $ `git commit -m "New package: my-new-package-package_version_number`
 
 ### Or even better using xbump which adds the correct commit message automatically.
@@ -93,7 +95,8 @@ $ `xlint srcpkgs/my-package-to-update`
 ### 5. Build and package it again
 $ `./xbps-src pkg my-package-to-update`
 
-### 6. Commit according to voidlinux's commit rules: https://github.com/void-linux/void-packages/blob/master/CONTRIBUTING.md#committing-your-changes
+### 6. Commit according to voidlinux's commit rules:
+ https://github.com/void-linux/void-packages/blob/master/CONTRIBUTING.md#committing-your-changes
 $ `git commit -m "my-package-to-update: update to new_package_version_number"`
 
 ##    Or even better using xbump which adds the correct commit message automatically.
