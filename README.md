@@ -35,3 +35,4 @@ cd void-packages
 xi <pkgname>
 ```
 
+[PR guide](./pr-guide.md)
