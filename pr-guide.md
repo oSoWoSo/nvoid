@@ -1,20 +1,20 @@
 
 ## Little PR Guide
-## The little void contribution guide
+### The little void contribution guide
 ### Useful hints
 
-##    Use just one commit per package
+###    Use just one commit per package
 
-## Correct a wrong commit
+### Correct a wrong commit
 
 `$ git commit --amend`
 
-## Squash commits related to a single issue into a cingle commit (e.g. four commits into one)
+### Squash commits related to a single issue into a cingle commit (e.g. four commits into one)
 
 `$ git rebase -i HEAD~4`
 
 # Workflow
-## Setup
+### Setup
 ### 1. Fork voidlinux's void-packages repository on github.com
 ### 2. Clone forked repository and add remote upstream
 
